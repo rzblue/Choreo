@@ -45,6 +45,15 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
+      "fileAssociations": [
+          {
+            "ext": "chor",
+            "name": "Choreo file",
+            "description": "Choreo file",
+            "role": "Editor",
+            "mimeType": "application/json"
+          }
+      ],
       "deb": {
         "files": {
           "/opt/trajopt/lib/libTrajoptLib.so": "./libTrajoptLib.so",
